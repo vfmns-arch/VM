@@ -1,0 +1,28 @@
+Script started on 2026-11-23 08:49:29-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;vini@LAPTOP-JQE7S0FG: /mnt/c/Users/Familia/desktop/vm[01;32mvini@LAPTOP-JQE7S0FG[00m:[01;34m/mnt/c/Users/Familia/desktop/vm[00m$ make
+[?2004lgcc -Wall -Wextra -O2 -pthread -o vm vm.c
+[?2004h]0;vini@LAPTOP-JQE7S0FG: /mnt/c/Users/Familia/desktop/vm[01;32mvini@LAPTOP-JQE7S0FG[00m:[01;34m/mnt/c/Users/Familia/desktop/vm[00m$ ./vm address.txt lru fifo
+[?2004lErro: não foi possível abrir o arquivo de endereços 'address.txt' (No such file or directory).
+[?2004h]0;vini@LAPTOP-JQE7S0FG: /mnt/c/Users/Familia/desktop/vm[01;32mvini@LAPTOP-JQE7S0FG[00m:[01;34m/mnt/c/Users/Familia/desktop/vm[00m$ make clear
+[?2004lmake: *** No rule to make target 'clear'.  Stop.
+[?2004h]0;vini@LAPTOP-JQE7S0FG: /mnt/c/Users/Familia/desktop/vm[01;32mvini@LAPTOP-JQE7S0FG[00m:[01;34m/mnt/c/Users/Familia/desktop/vm[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-23 08:51:38-03:00 [COMMAND_EXIT_CODE="2"]
+Script started on 2026-11-23 09:01:08-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;vini@LAPTOP-JQE7S0FG: /mnt/c/Users/Familia/desktop/vm[01;32mvini@LAPTOP-JQE7S0FG[00m:[01;34m/mnt/c/Users/Familia/desktop/vm[00m$ ,/[K[K./vm[K[K[K[Kmake
+[?2004lgcc -Wall -Wextra -O2 -pthread -o vm vm.c
+[?2004h]0;vini@LAPTOP-JQE7S0FG: /mnt/c/Users/Familia/desktop/vm[01;32mvini@LAPTOP-JQE7S0FG[00m:[01;34m/mnt/c/Users/Familia/desktop/vm[00m$ ./vm
+[?2004lErro: número inválido de argumentos.
+Uso correto: ./vm <arquivo_enderecos> <fifo|lru> <fifo|lru>
+[?2004h]0;vini@LAPTOP-JQE7S0FG: /mnt/c/Users/Familia/desktop/vm[01;32mvini@LAPTOP-JQE7S0FG[00m:[01;34m/mnt/c/Users/Familia/desktop/vm[00m$ ./vm aaa bbb cccc
+[?2004lErro: algoritmo de substituição de página inválido ('bbb'). Use 'fifo' ou 'lru'.
+[?2004h]0;vini@LAPTOP-JQE7S0FG: /mnt/c/Users/Familia/desktop/vm[01;32mvini@LAPTOP-JQE7S0FG[00m:[01;34m/mnt/c/Users/Familia/desktop/vm[00m$ ./vm addresses.txt[K[K[K[K[K[K[K[K[K[K[K[K[Kaaa.txt lru fifo
+[?2004lErro: não foi possível abrir o arquivo de endereços 'aaa.txt' (No such file or directory).
+[?2004h]0;vini@LAPTOP-JQE7S0FG: /mnt/c/Users/Familia/desktop/vm[01;32mvini@LAPTOP-JQE7S0FG[00m:[01;34m/mnt/c/Users/Familia/desktop/vm[00m$ ./ addresses.txt lru fifo
+[?2004lbash: ./: Is a directory
+[?2004h]0;vini@LAPTOP-JQE7S0FG: /mnt/c/Users/Familia/desktop/vm[01;32mvini@LAPTOP-JQE7S0FG[00m:[01;34m/mnt/c/Users/Familia/desktop/vm[00m$ ./vm addresses.txt lru fifo
+[?2004l[?2004h]0;vini@LAPTOP-JQE7S0FG: /mnt/c/Users/Familia/desktop/vm[01;32mvini@LAPTOP-JQE7S0FG[00m:[01;34m/mnt/c/Users/Familia/desktop/vm[00m$ exit
+[?2004lexit
+
+Script done on 2026-11-23 09:03:54-03:00 [COMMAND_EXIT_CODE="0"]
